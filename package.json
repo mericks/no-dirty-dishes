@@ -21,12 +21,14 @@
   },
   "homepage": "https://github.com/mericks/no-dirty-dishes#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.1"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
+    "morgan": "^1.9.1",
     "nodemon": "^1.18.9"
   }
 }
