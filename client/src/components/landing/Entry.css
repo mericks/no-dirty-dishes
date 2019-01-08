@@ -1,0 +1,17 @@
+.entry {
+  color: white;
+  width: 100%;
+
+  /* Set up positioning */
+  position: fixed;
+  bottom: 8%;
+  z-index: 1;
+}
+
+.about {
+  background: rgba(10, 10, 10, 0.8);
+}
+
+.info {
+  background: rgba(10, 10, 10, 0.6);
+}
