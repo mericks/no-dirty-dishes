@@ -4,12 +4,15 @@ const Header = () => {
   return (
     <div>
       <div className="ui secondary pointing menu">
-        <a className="item active">Home</a>
-        <a className="item">Search</a>
-        <a className="item">Friends</a>
-        <a className="item">Favorites</a>
+        <p className="item active">Home</p>
+        <p className="item">Friends</p>
+        <p className="item">Favorites</p>
+        <p className="item">Next</p>
+        <p className="item">Search</p>
         <div className="right menu">
-          <a className="ui item">Logout</a>
+          <p className="ui item">
+            <a href="/api/auth/logout">Logout</a>
+          </p>
         </div>
       </div>
     </div>
