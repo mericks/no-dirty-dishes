@@ -9,6 +9,7 @@ const cors = require('cors')();
 require('./lib/services/passport');
 const errorHandler = require('./lib/services/error-handler')();
 const auth = require('./lib/routes/authRoutes');
+const user = require('./lib/routes/userRoutes');
 
 const app = express();
 app.use(express.json());
@@ -31,6 +32,7 @@ app.use(cors);
 
 // Routes
 app.use('/api/auth', auth);
+app.use('/api/user', user);
 
 // Use static client build when in production
 if (process.env.NODE_ENV === 'production') {

@@ -11,7 +11,7 @@ const Header = () => {
         <p className="item">Search</p>
         <div className="right menu">
           <p className="ui item">
-            <a href="/api/auth/logout">Logout</a>
+            <a href="/api/user/logout">Logout</a>
           </p>
         </div>
       </div>
